@@ -1,0 +1,204 @@
+.navbar-light .navbar-toggler {
+    border: none;
+
+}
+
+li .active{
+    border-bottom: 3px solid #66B032;
+    padding-left: 0 !important;
+    padding-bottom: 0.2rem !important;
+    margin-left: 0.5rem;
+    transition-duration: 6s;
+}
+
+.btn:hover {
+    transform: scale(1.040);
+}
+
+.slide-icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 4px !important;
+    color: white !important;
+    background-color: rgba(7, 2, 14, .4);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.form-check-input{
+    height: 20px;
+    width: 20px;
+}
+
+.form-check-input:checked {
+    background-color: #079241 !important;
+    border-color: #079241 !important;
+}
+
+
+/* Fade In Up */
+@-webkit-keyframes dotts {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes dotts {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+.cmn-btn-active {
+    position: relative;
+    /* background: #31124b;
+    color: white;
+    padding: 12px 30px; */
+    border-radius: 60px;
+    font-family: "Exo" , sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 2;
+    overflow: hidden;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+  .cmn-btn-active:focus, .cmn-btn-active:hover {
+    /* color: white; */
+    box-shadow: 0 0 10px rgba(25, 31, 38, 0.6);
+  }
+  @media only screen and (max-width: 991px) {
+    .cmn-btn-active {
+      font-size: 14px;
+      /* padding: 8px 20px; */
+    }
+  }
+  .cmn-btn-active span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 5.75px;
+    height: 5.65px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 2px;
+  }
+  .cmn-btn-active span:first-child{
+    margin-left: 10px;
+  }
+  .cmn-btn-active span:nth-child(2){
+    opacity: .6;
+  }
+  .cmn-btn-active span:last-child{
+    opacity: .4;
+  }
+
+  .cmn-btn {
+    /* position: relative;
+    background: #FA9E1B;
+    color: white;
+    padding: 12px 30px;*/
+    border-radius: 60px;
+    font-family: "Exo" , sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 2;
+    overflow: hidden;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+  .cmn-btn span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 5.75px;
+    height: 5.63px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 2px;
+    animation: dotts 3s linear infinite;
+  }
+  .cmn-btn span:first-child{
+    margin-left: 10px;
+    animation-delay: 0.5s;
+  }
+  .cmn-btn span:nth-child(2){
+    opacity: .6;
+    animation-delay: 1.5s;
+  }
+  .cmn-btn span:last-child{
+    opacity: .4;
+    animation-delay: 2.2s;
+  }
+  .cmn-btn:focus, .cmn-btn:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(117, 182, 147, 0.6);
+  }
+  @media only screen and (max-width: 991px) {
+    .cmn-btn {
+      font-size: 14px;
+      padding: 8px 20px;
+    }
+  }
+
+
+  .form-card{
+      background-color: #FFFFFF !important;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  }
+
+  .patch{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    z-index: 5000;
+    /* border-radius: 50%; */
+    transform: rotate(31deg);
+    background: rgb(255, 255, 255);
+    bottom: 4.3px;
+    left: -2.5px;
+
+}
+.box1 {
+    border-bottom-right-radius: 3.8rem !important;
+}
+
+.box2 {
+    margin-left: -22px !important;
+    border-top-left-radius: 1.6rem !important;
+}
+
+
+@media screen and (max-width: 767px) {
+    .patch{
+        display: none;
+    }
+    .box1, .box2{
+        position: initial !important;
+        border-radius: unset !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .box1 {
+        border-top-left-radius: 0.25rem !important;
+        border-top-right-radius: 0.25rem !important;
+    }
+
+    .box2 {
+        border-bottom-left-radius: 0.25rem !important;
+        border-bottom-right-radius: 0.25rem !important;
+    }
+
+}
+
