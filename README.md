@@ -40,7 +40,7 @@ The Algorithm will make sure that, students of the same Level, Age and Education
 3. It makes Auditing and Analysis easier for the school authorities
 
 > ## TECHNOLOGIES USED
-The stacks used for the project backend include:
+The stacks used for the project include:
 
 | <b><u>Stack</u></b> | <b><u>Usage</u></b> |
 | :---         | :---         |
