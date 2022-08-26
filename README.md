@@ -11,8 +11,7 @@
 * [AUTHOR](#author)
 
 > ## PROJECT DESCRIPTION
-A web app that provides students with suitable accommodation when they login and choose their preferred hostel category.
-When student choose hostel category that suit them, then can proceed to make payment using PayStack or PayPal, after successful payment, a genetic Algorithm will be execute to Assigned best fit hostel room and bed number to the student, based on:
+A web app that provides students with suitable accommodation when they log in and choose their preferred hostel category. When a student chooses a hostel category that suits them, then can proceed to make payment using PayStack or PayPal, after successful payment, a genetic Algorithm will be executed to Assigned the best-fit hostel room and bed number for the student, based on:
 - **Gender**
 - **Age**
 - **And Level** 
