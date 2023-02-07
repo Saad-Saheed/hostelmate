@@ -49,7 +49,7 @@ The stacks used for the project include:
 | *
 
 > ## HOSTED LINK 
-https://hostelallocation.com.ng/
+https://hostel.saadsaheed.com.ng/
 
 > ## CONTRIBUTION GUIDE
 
